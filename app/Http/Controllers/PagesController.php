@@ -18,7 +18,6 @@ class PagesController extends Controller
             ,'mining'
             ,'chest'
             ,'combat'
-	    ,'other'
         ];
 
         if ( !in_array($filter, $allowedFilters) ) {
