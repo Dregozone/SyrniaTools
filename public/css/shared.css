@@ -1,0 +1,41 @@
+html {
+    font-family: sans-serif;
+    font-size: 2.3vmin;
+    background: #333333;
+}
+
+body {
+    background: none;
+    color: white;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    border: 3px solid #DFB533;
+    background-color: #660000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    nav > ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto 1%;
+        padding: 0.3% 15% 0.6% 15%;
+    }
+        nav > ul > li {
+            list-style-type: none;
+            padding: 1%;
+            margin: 1% 4%;
+        }
+
+/* Bootstrap adjustments */
+main.container {
+    margin-top: 1%;
+}
