@@ -1,0 +1,1 @@
+{"version":"pest_3.7.4","defects":[],"times":{"Tests\\Unit\\ExampleTest::test_example":0.006,"Tests\\Feature\\ExampleTest::test_example":0.052,"P\\Tests\\Feature\\PestTest::__pest_evaluable_sum":0.004}}
